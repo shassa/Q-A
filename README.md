@@ -3,14 +3,11 @@
 
 # Introduction
 <hr>
-    - Githup link : <a href="https://github.com/shassa/PostsApi">Q&AApi</a> <br>
+    - Githup link : <a href="https://github.com/shassa/Q-A">Q&AApi</a> <br>
     - Item Version : v 1.0 <br>
     - Author : Nashwa Hassan <br>
    
 <hr>
-
-## Abilities
-<p>Simple api to get the ('question','answers') from Db tables .<br>Add | Delete Question or Answer <br>show all questions sorted by created at,<br> one question and his answers sorted by 'up' points,<br>search questions with Scout\Algolia.<br> All routes protected with passport laravel package.</p>
 
 ## Main Components
  - ### laravel\passport
@@ -41,19 +38,26 @@
 
 <hr>
 
-## use case
+## Question use case
 
 <img src="https://github.com/shassa/Q-A/blob/master/images/readme/questionusecase.png" height="300px" alt="questions UseCase">
 
-## Install And Configure Laravel Passport
-- Laravel Passport provides a full 0Auth2 server implementation for Laravel applications. With it, you can easily generate a personal access token to uniquely identify a currently authenticated user.
+<hr>
 
-- ``` $ composer require laravel/passport ```
+## Answers use case
 
-- Once the installation is complete, a new migration file containing the tables needed to store clients and access tokens will have been generated for your application. Run the following command to migrate your database:
+<img src="https://github.com/shassa/Q-A/blob/master/images/readme/answerusecase.png" height="300px" alt="questions UseCase">
 
-- ``` $ php artisan migrate ```
-- Next, to create the encryption keys needed to generate secured access tokens, run the command below:
+## Use CAse Scenarios 
 
-- ``` $ php artisan passport:install ```
+<p>Simple api to get the ('question','answers') from Db tables .<br>Add | Delete Question or Answer <br>show all questions sorted by created at,<br> one question and his answers sorted by 'up' points,<br>search questions with Scout\Algolia.<br> All routes protected with passport laravel package.</p>
+
+## Query Sequence
+
+<img src="https://github.com/shassa/Q-A/blob/master/images/readme/querysequence.png" height="300px" alt="questions UseCase">
+
+## Search Sequence
+
+<img src="https://github.com/shassa/Q-A/blob/master/images/readme/searchsequence.png" height="300px" alt="questions UseCase">
+
 
