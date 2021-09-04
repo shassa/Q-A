@@ -43,7 +43,7 @@
 
 ## use case
 
-<img src="../../images/readme/questionusecase.png'" alt="questions UseCase">
+<img src="../../images/readme/questionusecase.png" alt="questions UseCase">
 
 ## Install And Configure Laravel Passport
 - Laravel Passport provides a full 0Auth2 server implementation for Laravel applications. With it, you can easily generate a personal access token to uniquely identify a currently authenticated user.
